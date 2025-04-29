@@ -1,3 +1,5 @@
+//GARCÍA MARTÍNEZ JONATHAN MAGDIEL
+
 #include <stdio.h>
 #include <stdlib.h>
 
