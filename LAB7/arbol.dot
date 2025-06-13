@@ -1,0 +1,16 @@
+digraph Huffman {
+  node [fontname="Arial"];
+  node0 [label="39"];
+  node1 [label="14"];
+  node2 [label="'A'\n5", shape=box];
+  node1 -> node2 [label="0"];
+  node3 [label="'B'\n9", shape=box];
+  node1 -> node3 [label="1"];
+  node0 -> node1 [label="0"];
+  node4 [label="25"];
+  node5 [label="'C'\n12", shape=box];
+  node4 -> node5 [label="0"];
+  node6 [label="'D'\n13", shape=box];
+  node4 -> node6 [label="1"];
+  node0 -> node4 [label="1"];
+}
